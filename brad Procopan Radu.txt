@@ -1,0 +1,21 @@
+package EclipseBrad;
+public class EclipseBrad {
+
+	public static void main(String[] args) {
+		char a = '^';
+		char b = '#';
+		char c = '•';
+		char x = '|';
+		
+		System.out.format("%15c%n", a);
+		System.out.format("%14c%c%c%n",b,c,b );
+		System.out.format("%13c%c%c%c%c%n", c,b,c,b,c);
+		System.out.format("%12c%c%c%c%c%c%c%n", b,c,b,c,b,c,b);
+		System.out.format("%11c%c%c%c%c%c%c%c%c%n", c,b,c,b,c,b,c,b,c,b);
+		System.out.format("%10c%c%c%c%c%c%c%c%c%c%c%n", b,c,b,c,b,c,b,c,b,c,b,c);
+		System.out.format("%9c%c%c%c%c%c%c%c%c%c%c%c%c%n", c,b,c,b,c,b,c,b,c,b,c,b,c,b);
+		System.out.format("%15c", x);
+
+	}
+
+}
